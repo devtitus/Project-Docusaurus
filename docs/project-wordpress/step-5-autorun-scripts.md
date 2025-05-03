@@ -1,5 +1,6 @@
 ---
 sidebar_position: 7
+title: Step 5 - Autorun Scripts
 ---
 
 ## 📦 4. Run Tunnel Automatically at Startup

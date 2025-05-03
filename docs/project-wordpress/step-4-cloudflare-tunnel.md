@@ -1,5 +1,6 @@
 ---
 sidebar_position: 6
+title: Step 4 - Cloudflare Tunnel
 ---
 
 ## ☁️ 3. Expose Localhost Using Cloudflare Tunnel

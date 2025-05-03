@@ -1,5 +1,6 @@
 ---
 sidebar_position: 5
+title: Step 3 - URL Configuration
 ---
 
 ## 🔁 2. Configure Dynamic URLs in WordPress

@@ -1,5 +1,6 @@
 ---
 sidebar_position: 3
+title: Step 1 - Install XAMPP
 ---
 
 ## 🖥️ 1. Install WordPress with XAMPP

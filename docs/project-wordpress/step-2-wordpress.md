@@ -1,5 +1,6 @@
 ---
 sidebar_position: 4
+title: Step 2 - Install WordPress
 ---
 
 ### ✅ Step 4: Download & Extract WordPress
