@@ -58,10 +58,15 @@ This builds and pushes the site to the gh-pages branch automatically.
 📁 Folder Structure
 
 project-docusaurus/
-├── docs/ → All markdown documentation
-├── src/ → Custom React components/pages
-├── static/ → Images, PDFs, and other assets
-├── docusaurus.config.js → Site configuration
-├── sidebars.js → Sidebar navigation config
+├── docs/
+│ └── All markdown documentation
+├── src/
+│ └── Custom React components/pages
+├── static/
+│ └── Images, PDFs, and other assets
+├── docusaurus.config.js
+│ └── Site configuration
+├── sidebars.js
+│ └── Sidebar navigation config
 └── package.json
 Built with ❤️ by Melwyn
