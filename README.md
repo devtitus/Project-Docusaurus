@@ -1,41 +1,67 @@
-# Website
+# Project Docusaurus 📘
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+> 🚀 My personal documentation ecosystem built with [Docusaurus v3](https://docusaurus.io)
 
-### Installation
+This repository contains all my technical notes, project documentation, system architecture diagrams, and learning logs — everything organized in one place using [Docusaurus](https://docusaurus.io), a modern static site generator made by Meta.
 
-```
-$ yarn
-```
+---
 
-### Local Development
+## 📌 Features
 
-```
-$ yarn start
-```
+- ✅ Markdown-based documentation
+- 🌗 Dark mode support
+- 📱 Fully responsive design
+- 🔍 Local search support _(optional plugin)_
+- 🧩 Auto-generated sidebar navigation
+- 🚀 Built for deployment on Netlify / GitHub Pages
+- 🛠️ Easy to extend and customize
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+---
 
-### Build
+## 🛠️ Getting Started
 
-```
-$ yarn build
-```
+### 1. Install dependencies
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
+```bash
+npm install
 ```
 
-Not using SSH:
+2. Start local development server
 
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
+```bash
+npm run start
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+This starts the dev server and opens the site in your browser. Most changes are reflected live.
+
+3. Build for production
+
+```bash
+npm run build
+```
+
+The output will be in the build/ folder — ready to deploy.
+
+🚀 Deployment
+To deploy to GitHub Pages:
+
+```bash
+# If you're using SSH
+USE_SSH=true npm run deploy
+```
+
+# Or if you're using HTTPS
+
+GIT_USER=<Your-GitHub-Username> npm run deploy
+This builds and pushes the site to the gh-pages branch automatically.
+
+📁 Folder Structure
+
+project-docusaurus/
+├── docs/ → All markdown documentation
+├── src/ → Custom React components/pages
+├── static/ → Images, PDFs, and other assets
+├── docusaurus.config.js → Site configuration
+├── sidebars.js → Sidebar navigation config
+└── package.json
+Built with ❤️ by Melwyn
