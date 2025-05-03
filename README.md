@@ -57,6 +57,7 @@ This builds and pushes the site to the gh-pages branch automatically.
 
 📁 Folder Structure
 
+```bash
 project-docusaurus/
 ├── docs/
 │ └── All markdown documentation
@@ -70,3 +71,4 @@ project-docusaurus/
 │ └── Sidebar navigation config
 └── package.json
 Built with ❤️ by Melwyn
+```
